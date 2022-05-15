@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+#my-bg{
+	background-color: #5C0494;
+}
+.navbar a{
+	color: white;
+}
+.add-header,.first-add-header,.second-add-header,.third-add-header{
+	font-family: 'Righteous',sans-serif;
+	font-size: 100px;
+}
+.add-desc{
+	font-family: 'PT Sans Caption',sans-serif;
+	font-size: 25px;
+}
+#search-box{
+	top: 10px;right: 20px;width: 395px;
+}
+.text-color{
+	color: white;
+}
+.our-story .nav-link.b{
+	border:none;
+}
+.our-story .nav-link.active.b{
+	color: red;
+	background-image: url("../images/hover.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding-bottom: 15px;
+	background-size: 0 0;
+	animation:hover 1s;
+	animation-fill-mode: forwards;
+}
+.study-us .card{
+	width: 250px;
+	height: 350px;
+	overflow: hidden;
+	
+}
+@keyframes hover{
+	0%{background-size: 0 0;}
+	100%{background-size: 100% 20px;}
+}
+@media(max-width: 768px){
+	#search-box{
+		 width: 90%;
+		left: 5%;
+		 
+	}
+	#header-slider h1{
+		font-size: 40px;
+		 
+	}
+	.f-details{
+		width: 100%;
+	}
+
+
+}
